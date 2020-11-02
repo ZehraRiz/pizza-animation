@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #d3eefe;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+h1 {
+    font-family: "Henny Penny", cursive;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    color: tomato;
+    font-weight: 200;
+    font-size: 120px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: hidden;
+}
+
+.dissapear {
+    opacity: 0;
+}
+
+.pan {
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+pan1 {
+    z-index: 1;
+}
+
+pan2 {
+    z-index: 2;
+}
+
+.ingredient {
+    position: absolute;
+    z-index: 10;
+    background-color: transparent;
+}
+
+/* ROUND 1 */
+
+#cheese_shreded {
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%, -50%);
+    height: 180px;
+}
+
+#tomato_sauce {
+    top: 50%;
+    right: 10%;
+    transform: translate(10%, -50%);
+    height: 250px;
+}
+
+article {
+    display: relative;
+    position: absolute;
+    height: 300px;
+    width: 350px;
+}
+
+.full,
+.hide, .half {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.full {
+    z-index: 1;
+}
+
+.hide {
+    height: 0;
+     z-index: 5;
+     
+}
+
+ #onion {
+     left: 20%;
+     top: 80%;
+     transform: translate(-50%, -50%);
+ }
+
+#tomato {
+    right: 20%;
+    top: 80%;
+     transform: translate(50%, -50%);
+}
+
+#capcicum {
+    right: 15%;
+    top: 40%;
+     transform: translate(50%, -50%);
+}
+
+#pineapple {
+    left: 15%;
+    top: 40%;
+     transform: translate(-50%, -50%);
+}
+
+
+h2 {
+     font-family: "Henny Penny", cursive;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: tomato;
+    font-weight: 200;
+    font-size: 100px;
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    overflow-y: hidden;
+     z-index: 10;
+}
+
+
+h3 {
+     font-family: "Henny Penny", cursive;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: tomato;
+    font-weight: 400;
+    font-size: 100px;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: hidden;
+    z-index: 10;
+
+}
